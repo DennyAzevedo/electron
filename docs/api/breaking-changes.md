@@ -6,6 +6,17 @@ Breaking changes will be documented here, and deprecation warnings added to JS c
 
 The `FIXME` string is used in code comments to denote things that should be fixed for future releases. See https://github.com/electron/electron/search?q=fixme
 
+## Planned Breaking API Changes (7.0)
+
+The following deprecated APIs are being removed:
+- `powerMonitor.querySystemIdleState()`
+- `powerMonitor.querySystemIdleTime()`
+- `webFrame.setIsolatedWorldContentSecurityPolicy()`
+- `webFrame.setIsolatedWorldHumanReadableName()`
+- `webFrame.setIsolatedWorldSecurityOrigin()`
+- `app.getApplicationMenu()`
+- `app.setApplicationMenu()`
+
 ## Planned Breaking API Changes (6.0)
 
 ### `win.setMenu(null)`
